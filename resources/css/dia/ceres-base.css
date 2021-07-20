@@ -13686,19 +13686,11 @@ padding-bottom:0px;
 
 .big_logo_row .brand-wrapper {
   margin: 0 auto !important;
-<<<<<<< HEAD
-  max-width: 114px;
-  float: none; }
-
-.big_logo_row .brand-wrapper img {
-  width: 114px;
-=======
   max-width: 160px;
   float: none; }
 
 .big_logo_row .brand-wrapper img {
   width: 160px;
->>>>>>> e36704180f6299c532aa44a774a400ca9aebf68c
   height: auto;
   transition: all 0.2s; }
 
@@ -13708,11 +13700,7 @@ padding-bottom:0px;
   transition: all 0.2s; }
 
 .pure_menu {
-<<<<<<< HEAD
-  top: 74px !important;
-=======
   /*top:74px !important;*/
->>>>>>> e36704180f6299c532aa44a774a400ca9aebf68c
   background: white !important;
   transition: all 0.2s; }
 
@@ -14475,7 +14463,6 @@ padding:40px;
     float: right;
     margin-right: -10px; } }
 
-<<<<<<< HEAD
 /* add from Plugin Javascript */
 .big_logo_row .brand-wrapper {
   margin: 0 auto !important;
@@ -14539,5 +14526,3 @@ padding:40px;
   iframe.n2goiframe {
     max-height: 420px; } }
 
-=======
->>>>>>> e36704180f6299c532aa44a774a400ca9aebf68c
