@@ -1135,3 +1135,71 @@ color: var(--main-color) !important;
     margin-right: -10px;
 }
 }
+
+/* add from Plugin Javascript */
+.big_logo_row .brand-wrapper{
+  margin: 0 auto !important;
+  max-width: 160px !important;
+float: none;
+}
+.big_logo_row .brand-wrapper img{
+      width: 160px;
+  height:auto;
+  transition: all 0.2s;
+}
+.fixed .big_logo_row .brand-wrapper img{
+width: 66px;
+height:auto;
+transition: all 0.2s;
+}
+.touched-fixed .pure_menu{
+top:166px !important;
+transition: all 0.2s;
+z-index: 9;
+}
+.touched-fixed.fixed .pure_menu{
+top:135px !important;
+transition: all 0.2s;
+background:white !important;
+z-index: 9;
+}
+.embed-container iframe{
+  max-height: 420px !important;
+}
+.embed-container {
+  position: relative; 
+  padding-bottom: 56.25%; /* ratio 16x9 */
+  height: 0; 
+  overflow: hidden; 
+  width: 100%;
+  height: auto;
+}
+.embed-container iframe {
+
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+}
+/* ratio 4x3 */
+.embed-container.ratio4x3 {
+  padding-bottom: 75%;
+}
+@media (max-width:476px) {
+.brand-wrapper .pt-2, .py-2 {
+    padding-top: 0rem !important;
+    padding-right: 40px;
+}
+}
+@media only screen and (min-width:1200) {
+            iframe.n2goiframe{
+                max-height: 360px;
+            }
+        }
+@media only screen and (min-width: 980px) and (max-width:1200) {
+            iframe.n2goiframe{
+                max-height: 420px;
+            }
+        }
+

@@ -38,12 +38,10 @@ $(function() {
                 //$("body").addClass("touched-fixed");
                 if ($(document).scrollTop() <= $("body").position().top - 140 )
                 {
-                    //$(".et_toggle_fullscreen_menu").addClass("showplus");
                     console.log('add fixed class');
                     $("body").removeClass("fixed");
                     
                 } else {
-                    //$(".et_toggle_fullscreen_menu").removeClass("showplus");
                     console.log('remove fixed class');
                     $("body").addClass("fixed");
                     $("body").addClass("touched-fixed");
