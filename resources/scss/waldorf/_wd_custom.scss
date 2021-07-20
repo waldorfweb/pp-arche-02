@@ -263,7 +263,7 @@ background:white !important;
 transition: all 0.2s;
 }
 .touched-fixed .pure_menu{
-top:166px !important;
+top:165px !important;
 transition: all 0.2s;
 z-index: 9;
 }
@@ -284,6 +284,10 @@ max-width: 100% !important;
 
 .fixed .main-navbar-collapsable .mainmenu > li > a,.fixed .main-navbar-collapsable .mainmenu > li  li > a {
   padding: 0.5rem 0.5rem;
+}
+.fixed .pure_menu {
+  
+  z-index:100 !important;
 }
 
 @media only screen and (max-width: 567px) {
@@ -1154,7 +1158,7 @@ height:auto;
 transition: all 0.2s;
 }
 .touched-fixed .pure_menu{
-top:166px !important;
+top:165px !important;
 transition: all 0.2s;
 z-index: 9;
 }

@@ -13705,7 +13705,7 @@ padding-bottom:0px;
   transition: all 0.2s; }
 
 .touched-fixed .pure_menu {
-  top: 166px !important;
+  top: 165px !important;
   transition: all 0.2s;
   z-index: 9; }
 
@@ -13725,6 +13725,9 @@ padding-bottom:0px;
 
 .fixed .main-navbar-collapsable .mainmenu > li > a, .fixed .main-navbar-collapsable .mainmenu > li li > a {
   padding: 0.5rem 0.5rem; }
+
+.fixed .pure_menu {
+  z-index: 100 !important; }
 
 @media only screen and (max-width: 567px) {
   .brand-wrapper {
@@ -14480,7 +14483,7 @@ padding:40px;
   transition: all 0.2s; }
 
 .touched-fixed .pure_menu {
-  top: 166px !important;
+  top: 165px !important;
   transition: all 0.2s;
   z-index: 9; }
 
