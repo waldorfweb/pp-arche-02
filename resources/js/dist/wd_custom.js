@@ -32,11 +32,10 @@ $(function() {
         $('.textrow_color01').wrap('<div class="widget-full-width textrow_color01_wrapper"></div>');
 
 
-        $("body").removeClass("fixed");
         $(window).on("scroll touchmove", function()
             {
                 //$("body").addClass("touched-fixed");
-                if ($(document).scrollTop() <= $("body").position().top - 140 )
+                if ($(document).scrollTop() <= $("body").position().top - 0 )
                 {
                     console.log('add fixed class');
                     $("body").removeClass("fixed");
@@ -48,7 +47,8 @@ $(function() {
                 }
     
             });
-
+            
+        $("body").removeClass("fixed");
         //remove canonical tag
         //$(".cano").removeClass("cano");
     $(".search-input ").attr("placeholder", "Suche");
