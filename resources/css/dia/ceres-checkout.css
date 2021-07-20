@@ -15083,11 +15083,11 @@ padding:40px;
     padding-top: 0rem !important;
     padding-right: 40px; } }
 
-@media only screen and (min-width: 1200) {
+@media only screen and (min-width: 1200px) {
   iframe.n2goiframe {
-    max-height: 360px; } }
+    max-height: 380px; } }
 
-@media only screen and (min-width: 980px) and (max-width: 1200) {
+@media only screen and (min-width: 980px) and (max-width: 1200px) {
   iframe.n2goiframe {
     max-height: 420px; } }
 
