@@ -63,7 +63,7 @@
                             "{{ item.texts.name3 }}"
                         </span>
                         <span v-if="item.texts.name2" class="item-details__author">
-                            von {{ item.texts.name2 }}
+                            <!-- von  -->{{ item.texts.name2 }}
                         </span>
 
                         <span v-if="item.texts.shortDescription" class="item-details__short">

@@ -803,8 +803,7 @@ var render = function() {
                               { staticClass: "item-details__author" },
                               [
                                 _vm._v(
-                                  "\n                        von " +
-                                    _vm._s(_vm.item.texts.name2) +
+                                  _vm._s(_vm.item.texts.name2) +
                                     "\n                    "
                                 )
                               ]
